@@ -10,7 +10,9 @@ import gevent
 CUSTOM_DATA_FILENAME = "custom_data.json"
 DEFAULT_CUSTOM_DATA = {
     "body_temperature": 36.5,
-    "health_situation": 1
+    "health_situation": 1,
+    "is_in_school":1,
+    "currentDate30":"2022-09-22"
 }
 
 def get_custom_data(filename: str) -> dict:
